@@ -6,7 +6,7 @@ var user = {
 exports = input = () =>{
     user.height = readline.question("What hight are you?");
     user.weight = readline.question("What weight are you?");
+    return JSON.stringify(user)
 }
 
-//input()
 

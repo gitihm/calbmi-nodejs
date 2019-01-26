@@ -1,2 +1,4 @@
-var input = require('./bmiinput')
-input()
+require('./bmiinput.js')
+var user = input()
+
+
