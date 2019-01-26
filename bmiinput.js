@@ -1,12 +1,11 @@
 var readline = require('readline-sync');
-var user = {
-    height : 0,
-    weight : 0
+var data = {
+    result : 0
 }
 exports = input = () =>{
-    user.height = readline.question("What hight are you?");
-    user.weight = readline.question("What weight are you?");
-    return JSON.stringify(user)
+    height = readline.question("What hight are you? : ")
+    weight = readline.question("What weight are you? : ")
+    console.log(height + " " + weight)
+     data.result = parseFloat(weight)/Math.pow((parseFloat(height)/100),2) 
+    return JSON.stringify(data)
 }
-
-

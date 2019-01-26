@@ -1,4 +1,4 @@
 require('./bmiinput.js')
-var user = input()
-
+var data = input()
+console.log(data)
 
