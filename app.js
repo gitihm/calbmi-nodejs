@@ -1,5 +1,4 @@
 require('./input.js')
 require('./bmi.js')
-
-
-printBMI(inputBMI())
+var result = inputBMI()
+console.log(printBMI(result))
