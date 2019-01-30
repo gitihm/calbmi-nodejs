@@ -1,4 +1,3 @@
-
 console.log("-----BMI calculator-----")
 exports = printBMI = (data) =>{
     if(data < 18.5) return"Underweight"
